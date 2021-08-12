@@ -28,6 +28,7 @@
   .navbar{
     position: fixed;
     top: 0;
+    /* height: 11vh !important; */
     z-index: 5;
   }
   /* NCC and IITR Logo */
@@ -65,7 +66,7 @@
   }
   /* IITR Logo 2 */
   .logoiitr2 {
-    margin-right: 9px;
+    margin-right: 15px;
     padding-top: 7px;
   }
   .logoiitr2 img{
@@ -185,13 +186,15 @@
 
 .logo-social{
   /* width: 50px; */
-  width: 15%;
+  width: 11%;
   background-color: #003665;
 }
 
 a#logo1>img,
 a#logo2>img,
-a#logo3>img {
+a#logo3>img,
+a#logo4>img,
+a#logo5>img {
   border-radius: 50%;
   background: transparent;
   transition: all 0.75s;
@@ -199,7 +202,9 @@ a#logo3>img {
 
 a#logo1:hover>img,
 a#logo2:hover>img,
-a#logo3:hover>img {
+a#logo3:hover>img,
+a#logo4:hover>img,
+a#logo5:hover>img {
   transform: scale(1.0);
 }
 a#logo1:hover>img {
@@ -212,81 +217,38 @@ a#logo2:hover>img {
 a#logo3:hover>img {
   background: #c4302b;
 }
+/* a#logo4:hover>img {
+  background: #00acee;
+}
+a#logo5:hover>img {
+  background: #0e76a8;
+} */
+/* #logo1,
+#logo2,
+#logo3,
+#logo4,
+#logo5 {
+   padding: 20px;
+} */
 
 .px-5{
   padding-right: 1rem!important;
   padding-left: 1.5rem!important;
 }
-.alignment{
-  padding-right: 0px;
-  padding-left: 5em;
-}
-.alignment1{
-  padding-left: 15em;
-  padding-right: 0px;
-}
 /* media query part */
-@media only screen and (max-width: 1600px) {
-  .alignment1{
-    padding-left: 13em;
-  }
-}
-@media only screen and (max-width: 1500px) {
-  .alignment1{
-    padding-left: 11em;
-  }
-}
-@media only screen and (max-width: 1450px) {
-  .alignment{
-    padding-left: 4em;
-  }
-  .alignment1{
-    padding-left: 10em;
-  }
-}
-@media only screen and (max-width: 1390px) {
-  .alignment{
-    padding-left: 3em;
-  }
-  .alignment1{
-    padding-left: 8em;
-  }
-}
-@media only screen and (max-width: 1295px) {
-  .alignment{
-    padding-left: 1em;
-  }
-  .alignment1{
-    padding-left: 7em;
-  }
-}
 @media only screen and (max-width:1075px) {
 .logo-social{
   width: 37px;
 }
 #logo1,
 #logo2,
-#logo3{
+#logo3,
+#logo4,
+#logo5 {
   padding: 0px;
 }
-.alignment{
-  padding-left: 0.1em;
 }
-.alignment1{
-  padding-left: 4em;
-}
-}
-@media only screen and (max-width:992px) {
-  .alignment1{
-    padding-left: 0px;
-  }
-  .alignment{
-    padding-left: 0px;
-  }
-  .test{
-    padding-left: 0px;
-  }
-}
+
 @media only screen and (max-width:779px) {
   .contact, .address, .imp{
     justify-content: center !important;
@@ -300,15 +262,15 @@ a#logo3:hover>img {
   .hamburger-menu {
       display: block;
   }
+  /* .menu__btn{
+    margin-top: 10px;
+  } */
   .logoiitr1{
     margin-bottom: 5px !important;
   }
 
   .logoiitr2 {
       display: none;
-  }
-  .alignment{
-    padding-left: 0px;
   }
 }
 
@@ -322,6 +284,11 @@ a#logo3:hover>img {
   }
 }
 /* For window View */
+@media only screen and (min-width:992px) {
+  .social-cont{
+    padding-left: 70px;
+  }
+}
 @media only screen and (min-width:779px) {
   .logoiitr1 {
       display: none;
