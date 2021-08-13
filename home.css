@@ -60,6 +60,37 @@
   font-weight: 700;
   font-family: 'Roboto';
 }
+@media only screen and (min-width:600px) and (max-width:1024px){
+.part_2 span:nth-child(1){
+  font-size: xx-large;
+}
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+  .part_2 span:nth-child(1){
+    font-size: 25px;
+  }
+  }
+  @media only screen and (min-width:400px) and (max-width:465px){
+    .part_2 span:nth-child(1){
+      font-size: 21px;
+    }
+    }
+    @media only screen and (min-width:300px) and (max-width:400px){
+      .part_2 span:nth-child(1){
+        font-size: 28px;
+      }
+      .part_2 span{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      }
+      @media only screen and (min-width:300px) and (max-width:330px){
+        .part_2 span:nth-child(1){
+          font-size: 24px;
+        }
+        }
 /* aim _0 section */
 .aim_0{
   margin-top: 15px;
@@ -264,14 +295,9 @@
   .address p{
     font-size: 17px;
   }
-  .part_2 span:nth-child(1){
-    font-size: xx-large;
-  }
+
 }
 @media only screen and (min-width:300px) and (max-width:400px){
-  .part_2 span:nth-child(1){
-    font-size: xx-large;
-  }
   .pledge_1 p{
     font-size: smaller;
   }
