@@ -2,7 +2,7 @@
 
 /* body part_1 starts */
 .part_1{
-  background-image: url("homebg.jpeg");
+  background-image: url('background.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: 11vh;
@@ -486,6 +486,7 @@
 .part_1,.part_2,.part_3{
   overflow-x: hidden;
 }
+
 }
 @media only screen and (min-width:768px) and (max-width:1024px) and (min-height:618px) {
   .carousel-inner .carousel-item img {
@@ -614,7 +615,7 @@
   margin-right: 50px;
 }
 } 
-@media only screen and (min-width:430px) {
+@media only screen and (max-width:430px) {
   .part_1{
     background-image: url("back.JPG");
   }
